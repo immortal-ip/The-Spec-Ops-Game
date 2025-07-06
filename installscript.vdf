@@ -1,0 +1,28 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"Visual C++ 2005"
+		{
+			"process 1"		"%INSTALLDIR%\\vcredist_x86_2005sp1.exe"
+			"command 1"		"/q"
+			"NoCleanUp"		"1"
+		}
+		"Visual C++ 2008"
+		{
+			"process 1"		"%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1"		"/q"
+			"NoCleanUp"		"1"
+		}
+		"DirectX Redist"
+		{
+			"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"NoCleanUp"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"51aa89c06569e1d7f0368052c95500465f8442237da0b9838b14f49a35227709308b32dbe4ff777ad9d7527441fa736f794c2ed1f2e6012820d37909734b8252f79f9a0f34195f31c8861f09f350b2b5cc63b510b48985b04abd6047f0bd5b6bd94ad62f921e756a947626b545938b5cd9f5e1701842869210913d537e978f76"
+}
